@@ -1,0 +1,182 @@
+/* Main Content */
+
+.tabs{
+	list-style-type: none;
+	padding: 0;
+	margin-top: 20px;
+	position: relative;
+}
+
+.tabs:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 240px;
+}
+
+.tabs li{
+	float: left;
+}
+
+.tabs li > input{
+	display: none;
+}
+
+.tabs li > label{
+	display: inline-block;
+	border: 1px solid indigo;
+	background-color: indigo;
+	color: white;
+	font-size: 24px;
+	width: 250px;
+	text-align: left;
+	font-weight: bold;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	height: 30px;
+	line-height: 30px;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+#managereport li{
+    width: 145px;
+}
+
+.tabs li:last-child > label{
+	border-right-width: 1px;
+	padding-right: 150px;
+}
+
+.tabs .tab-content{
+	width: 960px;
+	display: none;
+	position: absolute;
+	left: 0;
+	padding: 20px;
+	border: 1px solid #000;
+	border-top: none;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+/* Functional */
+
+.tabs li > input:checked + label{
+	background-color: white;
+	color: indigo;
+	border-bottom: none;
+}
+
+.tabs li > input:checked ~ .tab-content{
+	display: block;
+}
+
+
+/* Content Design */
+
+
+
+/* doclist class */
+
+
+.datalist {
+		border-collapse: collapse;
+		width: 100%;
+}
+
+
+.datalist tr{
+    width: 100%;
+}
+
+.datalist th {
+    border: 1px solid indigo;
+    width: 400px;
+    font-style: italic;
+}
+
+.datalist td{
+	border: 1px solid #f2f2f2;
+	text-align: left;
+	padding: 5px;
+    width: 400px;
+}
+
+.datalist .number{
+	width: 50px;
+}
+
+.datalist tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.no_item{
+    color:red;
+}
+
+
+
+.tab-content form{
+	margin: 5px;
+	width: 70%;
+	height: 200px;
+	padding-left: 100px;
+}
+
+.tab-content form input{
+	width: 60%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.tab-content textarea{
+	width: 60%;
+	height: 40%;
+    padding: 5px;
+    margin-left: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.tab-content form select{
+	width: 20%;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: indigo;
+    color: white;
+}
+
+.tab-content form .btn{
+	float: bottom;
+	border: 1px solid indigo;
+	background-color: indigo;
+	border-radius: 5px;
+	color: white;
+	margin: 30px;
+	font-size: 16px;
+	padding: 10px;
+	width: 40%;
+}
+
+.tab-content form .btn:hover{
+	transition: .3s;
+	background-color: white;
+	color: indigo;
+}
+
+.button-shadow{
+	background-color: #f2f2f2;
+}
+
+.tab-content .danger{
+	text-decoration: none;
+	color: red;
+}
+

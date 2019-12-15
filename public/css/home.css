@@ -1,0 +1,121 @@
+
+body{
+	background-image: url("home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+}
+
+.notification{
+	position: absolute;
+	right: 300px;
+	top: 200px;
+}
+
+.head{
+    background-color: darkslategray;  
+    color: skyblue;
+    border-bottom: 1px solid lightslategray;
+	box-shadow: 0 4px 4px lightslategray;
+}
+
+
+h1{
+	margin: 0px;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.login{
+	position: absolute;
+	top: 180px;
+	left: 250px;
+	width: 500px;
+	height: 300px;
+    border: 1px solid darkslategray;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.sel{
+	width: 420px;
+    padding: 8px;
+    margin: 5px;
+    margin-top: 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: darkslategray;
+    color: white;
+}
+
+.sel:hover{
+	background-color: white;
+	color: darkslategray;
+	transition: .3s;
+	font-weight: bold;
+}
+
+option{
+	font-size: 16px;
+	background-color: darkslategray;
+	color: white;
+	
+}
+
+input{
+    width: 400px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid darkslategray;
+    font-size: 16px;
+}
+
+button{
+	width: 420px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: darkslategray;
+    color: white;
+    border: 1px solid darkslategray;
+}
+
+.login input.has-error,
+select.has-error{
+	border: 1px solid red;
+}
+
+button:hover{
+	background-color: white;
+	color: darkslategray;
+	transition: .3s;
+	font-weight: bold;
+}
+
+.develop{
+	position: absolute;
+	left: 300px;
+	top: 550px;
+	width: 300px;
+	text-decoration: none;
+	color: darkslategray; 
+	
+}
+
+.footer{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+

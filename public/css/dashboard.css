@@ -1,0 +1,32 @@
+
+
+.icon a{
+	border: 1px solid cadetblue;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 20px;
+	text-align: center;
+	text-decoration:none;
+	color: darkslategray;
+}
+
+
+.icon img{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	border-radius: 5px;
+	background-color: powderblue;
+}
+
+
+.icon a:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 180, 186, 0.5);
+    transition: .3s;
+    background-color: cadetblue;
+    color: white;
+}
+
+
+
+

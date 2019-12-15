@@ -1,0 +1,169 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: gainsboro;
+}
+
+header{
+	border: 1px solid;
+	background-color: darkslategray;
+	color: skyblue;
+	border-bottom: 1px solid lightslategray;
+	box-shadow: 0 4px 4px lightslategray;
+}
+
+header ul{
+	padding: 0;
+	margin: 0;
+}
+
+header ul a.logout{
+    text-decoration: none;
+    color: skyblue;
+}
+
+header li{
+	list-style: none;
+	display: inline-block;
+	border: 1px solid;
+	margin: 10px;
+	padding: 5px;
+}
+
+header li:first-of-type{
+	margin-right: 500px;
+	font-size: 36px;
+	font-weight: bold;
+	border: none;
+}
+
+.side-nav{
+	margin-top: 10px;
+}
+
+.side-nav ul{
+	padding: 0;
+	margin: 0;
+}
+.side-nav li{
+	list-style: none;
+	border-bottom: 1px solid cadetblue;
+	border-right: 2px solid indigo;
+	width: 230px;
+	text-align: center;
+	background-color: darkslategray;
+	color: white;
+}
+
+.side-nav li.active{
+	background-color: indigo;
+	font-size: 20px;
+}
+
+
+ul#navmenu a{
+   text-decoration:none;
+   display:block;
+   color: white;
+   padding: 10px;
+}
+
+ul#navmenu li:hover > button{
+   background-color: darkolivegreen;
+}
+ul#navmenu li:hover > a{
+   background-color: darkolivegreen;
+}
+
+ul#navmenu li a:hover{
+   background-color: cadetblue;
+
+}
+
+ul#navmenu .sub{
+   display: none;
+}
+
+.sub li{
+    background-color: darkkhaki;
+}
+
+button.monitor,
+button.setting{
+	padding: 10px;
+	width: 230px;
+	background-color: darkslategray;
+	border: 1px solid darkslategray;
+	font-size: 16px;
+	color: white;
+	outline: none;
+}
+
+
+.darrow{
+   font-size:8pt;
+   position: relative;
+   float: right;
+}
+
+.sec-head{
+     position: absolute;
+     left: 300px;
+     top: 100px;
+     width: 70%;
+     border-bottom: 1px solid cadetblue;
+     text-align: center;
+     color: cadetblue;
+     font-size: 20px;
+}
+
+.sec-head .heading{
+	font-size: 26px;
+	text-align: left;
+}
+
+.sec-head .heading span{
+	font-family: "ravie regular";
+	background-color: indigo;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	border-radius: 16px;
+	margin: 5px;
+}
+
+.sec-head th{
+	border-right: 1px solid;
+}
+
+.main-content{
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	margin: 30px;
+	margin-right: 30px;
+}
+
+.developer{
+	margin-top: 200px;
+}
+
+.developer hr{
+	width: 30%;
+	height: 2px;
+	background-color: cadetblue;
+	text-align: center;
+
+}
+
+.footer{
+	list-style: none;
+	color: white;
+	background-color: darkslategray;
+	padding: 20px;
+}
+
+.has-error{
+	border: 1px solid red;
+}
+
