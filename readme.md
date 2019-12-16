@@ -1,7 +1,7 @@
 # Hopital Management System
 
 ## Home page
-![home](https://user-images.githubusercontent.com/33843231/70907907-3a7ed400-2034-11ea-9fe5-11e7d854c311.jpg)
+![home](https://user-images.githubusercontent.com/33843231/70908864-6f8c2600-2036-11ea-87c2-14cb80ca7ba6.jpg)
 ## Login Type
 ![LoginType](https://user-images.githubusercontent.com/33843231/70907936-4bc7e080-2034-11ea-8e69-60b6cd26502e.jpg)
 ## Admin Dashboard
