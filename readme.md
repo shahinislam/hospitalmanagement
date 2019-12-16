@@ -6,18 +6,18 @@
 ![LoginType](https://user-images.githubusercontent.com/33843231/70907936-4bc7e080-2034-11ea-8e69-60b6cd26502e.jpg)
 ## Admin Dashboard
 ![AdminDashboard](https://user-images.githubusercontent.com/33843231/70909023-c7c32800-2036-11ea-8bf2-33e6ac556e24.jpg)
-## Doctor Dashboard
-![DoctorDashboard](https://user-images.githubusercontent.com/33843231/70907981-639f6480-2034-11ea-9962-b976a5f4de68.jpg)
+## Alert Message
+![Alertmsg](https://user-images.githubusercontent.com/33843231/70908077-8fbae580-2034-11ea-9319-6b3cd9ad33f0.jpg)
 ## Doctor List
 ![doctorlist](https://user-images.githubusercontent.com/33843231/70908006-6dc16300-2034-11ea-8800-31d94eaf99e4.jpg)
 ## Add Doctor
 ![addDoctor](https://user-images.githubusercontent.com/33843231/70908041-7a45bb80-2034-11ea-85a2-4b3ae090f5b4.jpg)
+## Doctor Dashboard
+![DoctorDashboard](https://user-images.githubusercontent.com/33843231/70907981-639f6480-2034-11ea-9962-b976a5f4de68.jpg)
 ## Add Appointment
 ![addappointment](https://user-images.githubusercontent.com/33843231/70908043-7c0f7f00-2034-11ea-90a8-3736b677f781.jpg)
 ## Add Patient
 ![addPatient](https://user-images.githubusercontent.com/33843231/70908069-8cbff500-2034-11ea-9571-6cb910222729.jpg)
-## Alert Message
-![Alertmsg](https://user-images.githubusercontent.com/33843231/70908077-8fbae580-2034-11ea-9319-6b3cd9ad33f0.jpg)
 ## Blood Bank
 ![bloodbank](https://user-images.githubusercontent.com/33843231/70908089-977a8a00-2034-11ea-8bf8-ef7523d278af.jpg)
 ## Doctor Report
