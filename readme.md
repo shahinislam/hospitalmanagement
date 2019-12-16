@@ -5,7 +5,7 @@
 ## Login Type
 ![LoginType](https://user-images.githubusercontent.com/33843231/70907936-4bc7e080-2034-11ea-8e69-60b6cd26502e.jpg)
 ## Admin Dashboard
-![AdminDashboard](https://user-images.githubusercontent.com/33843231/70907956-54201b80-2034-11ea-8f3a-8fd560becd68.jpg)
+![AdminDashboard](https://user-images.githubusercontent.com/33843231/70909023-c7c32800-2036-11ea-8bf2-33e6ac556e24.jpg)
 ## Doctor Dashboard
 ![DoctorDashboard](https://user-images.githubusercontent.com/33843231/70907981-639f6480-2034-11ea-9962-b976a5f4de68.jpg)
 ## Doctor List
