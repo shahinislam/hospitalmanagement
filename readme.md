@@ -1,5 +1,21 @@
 # Hopital Management System
 
+## About
+It includes registration of patients, doctors, nurse, pharmacist, laboratorist, accountant storing their details into the system. <br/>
+Programming language used: Laravel Framework, HTML, CSS, JavaScript.
+
+
+## Installation
+- Run git clone https://github.com/shahinislam/hospitalmanagement.git
+- Run composer install
+- Keep Project in local server
+- Open command prompt in project directory
+- Configure your .env file
+- php artisan key:generate
+- php artisan config:cache
+- php artisan migrate
+- php db:seed 
+
 ## Home page
 ![home](https://user-images.githubusercontent.com/33843231/70908864-6f8c2600-2036-11ea-87c2-14cb80ca7ba6.jpg)
 ## Login Type
